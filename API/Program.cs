@@ -1,20 +1,41 @@
-
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Infrastructure.Data;
+using Microsoft.AspNetCore.Builder;
 
 namespace API
 {
     public class Program
     {
-        public static void Main(String[] args) {
-            CreateHostBuilder(args).Build().Run();
-        }
+        public static async Task Main(String[] args)
+         {
+           var host= CreateHostBuilder(args).Build();
+           using (var scope = host.Services.CreateScope())
+           {
+                var services = scope.ServiceProvider;
+                var loggerfactory = services.GetRequiredService<ILoggerFactory>();
+            try
+            {
+                var context = services.GetRequiredService<StoreContext>();
+                await context.Database.MigrateAsync();
+                await StoreContextSeed.SeedAsync(context, loggerfactory);
 
-        public static IHostBuilder CreateHostBuilder(String[] args) =>
+            }
+            catch(Exception ex)
+            {
+                var logger = loggerfactory.CreateLogger<Program>();
+                logger.LogError(ex.Message, "An error occured during migration");
+            }
+        }
+           
+        host.Run();
+    }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+            });
     }
+
 }

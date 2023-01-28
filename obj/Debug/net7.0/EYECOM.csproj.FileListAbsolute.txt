@@ -1,0 +1,5 @@
+C:\Users\PD366EU\OneDrive - EY\Substainability\Demo\EYECOM\obj\Debug\net7.0\EYECOM.csproj.AssemblyReference.cache
+C:\Users\PD366EU\OneDrive - EY\Substainability\Demo\EYECOM\obj\Debug\net7.0\EYECOM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PD366EU\OneDrive - EY\Substainability\Demo\EYECOM\obj\Debug\net7.0\EYECOM.AssemblyInfoInputs.cache
+C:\Users\PD366EU\OneDrive - EY\Substainability\Demo\EYECOM\obj\Debug\net7.0\EYECOM.AssemblyInfo.cs
+C:\Users\PD366EU\OneDrive - EY\Substainability\Demo\EYECOM\obj\Debug\net7.0\EYECOM.csproj.CoreCompileInputs.cache

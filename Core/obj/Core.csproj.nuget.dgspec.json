@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\EYECOM\\Core\\Core.csproj": {}
+    "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\PHILVIN\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\EYECOM\\Core\\Core.csproj": {
+    "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\PHILVIN\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\EYECOM\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\PHILVIN\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\EYECOM\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\PHILVIN\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\PD366EU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\EYECOM\\Core\\obj\\",
+        "outputPath": "C:\\Users\\PD366EU\\OneDrive - EY\\Substainability\\Demo\\PHILVIN\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PD366EU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PD366EU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

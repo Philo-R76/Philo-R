@@ -15946,4 +15946,2703 @@
           {
             "Kind": "Components.Bind",
             "Name": "@bind-value",
-            "TypeName": "Sy
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind_value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind-value' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": null,
+          "Components.Bind.TypeAttribute": "number",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": -1446181737,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "date",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "date",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM-dd",
+          "Components.Bind.TypeAttribute": "date",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": -1841441355,
+        "Kind": "Components.Bind",
+        "Name": "Bind_value",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "date",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "date",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-value",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind_value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind-value' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM-dd",
+          "Components.Bind.TypeAttribute": "date",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 306348852,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "datetime-local",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "datetime-local",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM-ddTHH:mm:ss",
+          "Components.Bind.TypeAttribute": "datetime-local",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": -1404734452,
+        "Kind": "Components.Bind",
+        "Name": "Bind_value",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "datetime-local",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "datetime-local",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-value",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind_value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind-value' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM-ddTHH:mm:ss",
+          "Components.Bind.TypeAttribute": "datetime-local",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 690431449,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "month",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "month",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM",
+          "Components.Bind.TypeAttribute": "month",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": -1130921972,
+        "Kind": "Components.Bind",
+        "Name": "Bind_value",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "month",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "month",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-value",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind_value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind-value' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "yyyy-MM",
+          "Components.Bind.TypeAttribute": "month",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 1041373797,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "time",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "time",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "HH:mm:ss",
+          "Components.Bind.TypeAttribute": "time",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 1626156560,
+        "Kind": "Components.Bind",
+        "Name": "Bind_value",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "time",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "time",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "@bind-value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-value",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind_value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind-value' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind-value' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "True",
+          "Components.Bind.Format": "HH:mm:ss",
+          "Components.Bind.TypeAttribute": "time",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 2616586,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "select",
+            "Attributes": [
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "select",
+            "Attributes": [
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "False",
+          "Components.Bind.Format": null,
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 1152118135,
+        "Kind": "Components.Bind",
+        "Name": "Bind",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "textarea",
+            "Attributes": [
+              {
+                "Name": "@bind",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "textarea",
+            "Attributes": [
+              {
+                "Name": "@bind:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind",
+            "TypeName": "System.Object",
+            "Documentation": "Binds the provided expression to the 'value' attribute and a change event delegate to the 'onchange' attribute.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Bind"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "format",
+                "TypeName": "System.String",
+                "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+                "Metadata": {
+                  "Common.PropertyName": "Format_value"
+                }
+              },
+              {
+                "Name": "event",
+                "TypeName": "System.String",
+                "Documentation": "Specifies the event handler name to attach for change notifications for the value provided by the '@bind' attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Event_value"
+                }
+              },
+              {
+                "Name": "culture",
+                "TypeName": "System.Globalization.CultureInfo",
+                "Documentation": "Specifies the culture to use for conversions.",
+                "Metadata": {
+                  "Common.PropertyName": "Culture"
+                }
+              },
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          },
+          {
+            "Kind": "Components.Bind",
+            "Name": "format-value",
+            "TypeName": "System.String",
+            "Documentation": "Specifies a format to convert the value specified by the '@bind' attribute. The format string can currently only be used with expressions of type <code>DateTime</code>.",
+            "Metadata": {
+              "Common.PropertyName": "Format_value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Common.ClassifyAttributesOnly": "True",
+          "Components.Bind.ValueAttribute": "value",
+          "Components.Bind.ChangeAttribute": "onchange",
+          "Components.Bind.IsInvariantCulture": "False",
+          "Components.Bind.Format": null,
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Web.BindAttributes",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Web",
+          "Common.TypeNameIdentifier": "BindAttributes"
+        }
+      },
+      {
+        "HashCode": 453170140,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputCheckbox",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputCheckbox",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputCheckbox"
+        }
+      },
+      {
+        "HashCode": -1543044199,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputCheckbox",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1774853173,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputDate",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputDate",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputDate"
+        }
+      },
+      {
+        "HashCode": 1655372104,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputDate",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputDate",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputDate",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1782347483,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputNumber",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputNumber",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputNumber"
+        }
+      },
+      {
+        "HashCode": 10593418,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputNumber",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputNumber",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputNumber",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1869831966,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputRadioGroup",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputRadioGroup",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputRadioGroup"
+        }
+      },
+      {
+        "HashCode": 1124459644,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputRadioGroup",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 882422613,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputSelect",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputSelect",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputSelect"
+        }
+      },
+      {
+        "HashCode": 1625843127,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputSelect",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputSelect",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TValue>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputSelect",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2125231877,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputText",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputText",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputText",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputText"
+        }
+      },
+      {
+        "HashCode": 1813857473,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputText",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputText",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputText",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputText",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -862805984,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputTextArea",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "InputTextArea",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputTextArea"
+        }
+      },
+      {
+        "HashCode": 109248085,
+        "Kind": "Components.Bind",
+        "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Web",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Common.TypeNameIdentifier": "InputTextArea",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1886808399,
+        "Kind": "Components.Ref",
+        "Name": "Ref",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Populates the specified field or property with a reference to the element or component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "*",
+            "Attributes": [
+              {
+                "Name": "@ref",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Ref",
+            "Name": "@ref",
+            "TypeName": "System.Object",
+            "Documentation": "Populates the specified field or property with a reference to the element or component.",
+            "Metadata": {
+              "Common.PropertyName": "Ref",
+              "Common.DirectiveAttribute": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Ref",
+          "Common.ClassifyAttributesOnly": "True",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Ref"
+        }
+      },
+      {
+        "HashCode": -917013290,
+        "Kind": "Components.Key",
+        "Name": "Key",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "Ensures that the component or element will be preserved across renders if (and only if) the supplied key value matches.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "*",
+            "Attributes": [
+              {
+                "Name": "@key",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Key",
+            "Name": "@key",
+            "TypeName": "System.Object",
+            "Documentation": "Ensures that the component or element will be preserved across renders if (and only if) the supplied key value matches.",
+            "Metadata": {
+              "Common.PropertyName": "Key",
+              "Common.DirectiveAttribute": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Key",
+          "Common.ClassifyAttributesOnly": "True",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Key"
+        }
+      }
+    ],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "API",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}
